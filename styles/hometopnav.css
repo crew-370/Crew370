@@ -1,0 +1,52 @@
+.topnav {
+  --topnav-bg-color: #006B3F;
+  --topnav-height: 60px;
+  --topnav-padding-y: 40px;
+
+  --topnav-parts-display: inline-block;
+  --topnav-parts-width: 100%;
+
+  --topnav-button-width: 30%;
+  --topnav-button-bg:;
+  --topnav-button-border: 1px solid white;
+  --topnav-button-margin: 5px;
+
+  --topnav-a-line-height: 60px;
+  --topnav-a-padding-x: 20px;
+  --topnav-a-color: #e0e0e0;
+}
+.topnav {
+  background-color: var(--topnav-bg-color);
+  padding: var(--topnav-padding-y) 0;
+  transition: padding 0.2s;
+  position: sticky;
+  top: 0;
+}
+.topnav > .content-box {
+  text-align: center;
+}
+.topnav .parts {
+  display: var(--topnav-parts-display);
+  text-align: center;
+  width: var(--topnav-parts-width);
+  transition: 0.2s;
+}
+.topnav .page-button {
+  display: inline-block;
+  width: var(--topnav-button-width);
+  text-align: center;
+  overflow: hidden;
+  border: var(--topnav-button-border);
+  margin: var(--topnav-button-margin);
+  transition: 0.2s;
+}
+.topnav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  line-height: var(--topnav-a-line-height);
+  padding: 0 var(--topnav-a-padding-x);
+  color: var(--topnav-a-color);
+}
