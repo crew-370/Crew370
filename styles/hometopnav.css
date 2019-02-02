@@ -15,6 +15,14 @@
   --topnav-a-padding-x: 20px;
   --topnav-a-color: #e0e0e0;
 }
+.topnav.scroll {
+  --topnav-padding-y: 0px;
+  --topnav-parts-display: inline-block;
+  --topnav-parts-width: auto;
+  --topnav-button-width: auto;
+  --topnav-button-border: none;
+  --topnav-button-margin: 0;
+}
 .topnav {
   background-color: var(--topnav-bg-color);
   padding: var(--topnav-padding-y) 0;

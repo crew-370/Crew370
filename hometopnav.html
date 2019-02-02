@@ -29,6 +29,24 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script>
+      $(document).ready(function(){
+        //shadow for flaoting navbar on mobile
+        	$(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 1) {
+        	    $(".topnav").addClass("scroll");
+          	} else {
+              $(".topnav").removeClass("scroll");
+            }
+        });
+      });
+    </script>
   </body>
 </html>
 
