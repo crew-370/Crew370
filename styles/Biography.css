@@ -1,0 +1,31 @@
+:root {
+  --bio-background: green;
+}
+
+.bio {
+  background: var(--bio-background);
+  padding: 21px 21px;
+}
+
+.h3-title {
+  font-family: "IBM Plex Sans", Sans-Serif;
+  padding: 21px 21px;
+  color: white;
+  text-align: center;
+  font-size: 45;
+}
+
+.h4-content {
+  font-family: "Roboto", Sans-Serif;
+  padding: 21px 21px;
+  color: white;
+  text-align: center;
+  font-size: 30;
+}
+
+.h3-content {
+  font-family: "Roboto", Sans-Serif;
+  color: white;
+  font-size: 32;
+  text-align: center;
+}
