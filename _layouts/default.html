@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='styles/name.css'>
+    <link rel='stylesheet' href='styles/topnav.css'>
+  </head>
+  <body>
+    {% if page.title == 'Home' %}
+    <div class="titlebox">
+      <div class="content-box">
+        <img src="src/venture.png" alt="Venture Logo" width="100" length="100"></img>
+        <h1>Welcome to Venturing Crew 370</h1>
+        <h2>Venturing Crew 370 is a dedicated Co-Ed troop in Atlanta, Georgia for teenagers ages 14-21.</h2>
+      </div
+    </div>
+    <p>This only shows on index.html :) </p>
+    {% else %} {% endif %}
+    <div class="topnav">
+      <div class="content-box">
+        <a href="index.html">Home</a>
+        <a href="information.html">Information</a>
+        <a href="events.html">Events</a>
+        <a href="leadership.html">Leadership</a>
+        <a href="photos.html">Photos</a>
+        <a href="payments.html">Payments & Campout Signups</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    {{ content }}
+  </body>
+</html>

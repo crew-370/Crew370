@@ -1,0 +1,29 @@
+:root {
+  --topnav-color: #e0e0e0;
+  --topnav-background: #111111;
+  --topnav-a-hover: #ffffff14;
+  --topnav-a-active: #ffffff28;
+}
+
+.topnav {
+  height: 60px;
+  background-color: var(--topnav-background);
+  font-family: "IBM Plex Sans", Sans-Serif;
+}
+
+.topnav a {
+    color: var(--topnav-color);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 21px 21px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.topnav a:hover {
+  box-shadow:inset 100px 100px var(--topnav-a-hover);
+}
+
+.topnav a:active {
+  box-shadow:inset 100px 100px var(--topnav-a-active);
+}
