@@ -1,0 +1,20 @@
+:root {
+  --bb-background: red;
+}
+
+.bottombar {
+  background-color: var(--bb-background);
+  padding: 21px 21px
+}
+
+.bb-title {
+  font-family: "IBM Plex Sans", Sans-Serif;
+  padding: 21px 21px;
+  color: white;
+  text-align: center;
+  font-size: 45;
+}
+
+.ig-img {
+  text-align: center;
+}

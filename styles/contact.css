@@ -1,0 +1,34 @@
+:root {
+  --contact-background: red;
+  --text-color1: black;
+  --text-color2: black;
+}
+
+.contact {
+  background: var(--contact-background);
+  padding: 21px 21px
+}
+
+.M-Info {
+  font-family: "IBM Plex Sans", Sans-Serif;
+  padding: 21px 21px;
+  color: var(--text-color1);
+  text-align: center;
+  font-size: 45;
+}
+
+.address {
+  font-family: "Roboto", Sans-Serif;
+  padding: 21px 21px;
+  color: var(--text-color2);
+  text-align: center;
+  font-size: 35;
+}
+
+.email {
+  font-family: "Roboto", Sans-Serif;
+  padding: 21px 21px;
+  color: var(--text-color2);
+  text-align: center;
+  font-size: 35;
+}
