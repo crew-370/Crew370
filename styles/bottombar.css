@@ -16,5 +16,6 @@
 }
 
 .ig-img {
-  text-align: center;
+  display: block;
+  margin-left: 40px;
 }
