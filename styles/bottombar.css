@@ -29,7 +29,7 @@
 }
 
 .r-column {
-  float: left;
+  float: right;
   display: table;
   width: 49%;
   padding: 10px;
