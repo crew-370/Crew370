@@ -23,14 +23,15 @@
 
 .map {
   float: left;
-  width: 50%;
+  display: inline;
+  width: 49%;
   padding: 10px;
 }
 
 .r-column {
-  display: table;
-  float: right;
-  width: 50%;
+  float: left;
+  display: inline;
+  width: 49%;
   padding: 10px;
   color: black;
   font-size: 30
