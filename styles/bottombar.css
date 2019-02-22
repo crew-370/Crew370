@@ -25,7 +25,7 @@
 .column {
   float: left;
   display: table;
-  width: 49;
+  width: auto;
   color: black;
   font-size: 30;
   margin-left: 21px;
