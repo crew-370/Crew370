@@ -10,7 +10,7 @@
 .bb-title {
   font-family: "IBM Plex Sans", Sans-Serif;
   padding: 21px 21px;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 45;
 }
@@ -28,6 +28,7 @@
 }
 
 .r-column {
+  display: table;
   float: right;
   width: 50%;
   padding: 10px;
