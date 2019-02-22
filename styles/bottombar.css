@@ -4,7 +4,7 @@
 
 .bottombar {
   background-color: var(--bb-background);
-  padding: 21px 21px
+  padding: 21px 21px;
 }
 
 .bb-title {
@@ -13,6 +13,7 @@
   color: black;
   text-align: center;
   font-size: 45;
+  background-color: var(--bb-background);
 }
 
 .contact-img {
