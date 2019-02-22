@@ -24,6 +24,7 @@
 }
 
 .column {
+  background-color: var(--bb-background);
   float: left;
   display: table;
   width: auto;
@@ -33,5 +34,4 @@
   margin-top: 39px;
   margin-right: 21px;
   margin-bottom: 21px;
-  background-color: var(--bb-background);
 }
