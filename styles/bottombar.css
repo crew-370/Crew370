@@ -24,7 +24,7 @@
 
 .column {
   float: left;
-  display: inline;
+  display: table;
   width: 49;
   color: black;
   font-size: 30;
