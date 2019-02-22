@@ -21,19 +21,11 @@
   margin-right: auto;
 }
 
-.map {
-  float: left;
-  display: table;
-  width: 49%;
-  padding: 10px;
-}
 
-.r-column {
-  float: right;
-  display: table;
+.column {
+  float: left;
   width: 49%;
   padding: 10px;
   color: black;
   font-size: 30;
-  clear: both;
 }
