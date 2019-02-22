@@ -1,5 +1,5 @@
 :root {
-  --bb-background: red;
+  --bb-background: #004460;
 }
 
 .bottombar {
@@ -19,6 +19,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color:#006B3F
 }
 
 
@@ -32,5 +33,5 @@
   margin-top: 39px;
   margin-right: 21px;
   margin-bottom: 21px;
-  background-color: #004460;
+  background-color:#006B3F;
 }
