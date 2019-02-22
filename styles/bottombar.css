@@ -27,6 +27,7 @@
   background-color: var(--bb-background);
   float: left;
   display: table;
+  color: var(--b-background);
   width: auto;
   color: white;
   font-size: 30;
