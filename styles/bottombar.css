@@ -24,6 +24,7 @@
 
 .column {
   float: left;
+  display: inline;
   width: 49%;
   padding: 10px;
   color: black;
