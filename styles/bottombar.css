@@ -2,6 +2,10 @@
   --bb-background: #006B3F;
 }
 
+.background {
+  background-color: var(--bb-background);
+}
+
 .bottombar {
   background-color: var(--bb-background);
   padding: 21px 21px;
