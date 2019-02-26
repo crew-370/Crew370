@@ -11,9 +11,16 @@ html, body, h1, h2, h3, h4, h5, h6, p{
   margin: 0 auto
 }
 
-.center-text {
+.center-title {
   font-family: "IBM Plex Sans", Sans-Serif;
   color: white;
   font-size: 55
+  padding: 21px 21px
+}
+
+.center-content {
+  font-family: "IBM Plex Sans", Sans-Serif;
+  color: white;
+  font-size: 45
   padding: 21px 21px
 }
