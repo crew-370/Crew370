@@ -30,12 +30,10 @@
 }
 
 .column {
-  display: block;
-  text-align: center;
   background-color: var(--bb-background);
   float: left;
   display: table;
-  width: auto;
+  width: 50%;
   color: var(--b-background);
   font-size: 30;
   margin-left: 21px;
