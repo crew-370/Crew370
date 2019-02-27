@@ -44,10 +44,10 @@
 
 .gmaps {
   display: block;
-  text-align: center;
+  align: center;
 }
 
 .email {
   display: block;
-  text-align: center;
+  align: center;
 }
