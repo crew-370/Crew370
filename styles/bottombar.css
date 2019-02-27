@@ -23,7 +23,7 @@
 
 .contact-img {
   display: block;
-  align: center;
+  text-align: center;
   margin-left: 50px;
   margin-right: 50px;
   background-color: var(--bb-background);
