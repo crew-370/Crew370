@@ -52,7 +52,7 @@
 
 .gmaps {
   display: block;
-  align: center;
+  text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 30;
