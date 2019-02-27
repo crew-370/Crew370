@@ -30,6 +30,8 @@
 }
 
 .column {
+  display: block;
+  align: center;
   background-color: var(--bb-background);
   float: left;
   display: table;
