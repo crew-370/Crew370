@@ -36,9 +36,9 @@
   width: 50%;
   color: var(--b-background);
   font-size: 30;
-  margin-left: 21px;
+  margin-left: auto;
   margin-top: 39px;
-  margin-right: 21px;
+  margin-right: auto;
   margin-bottom: 21px;
 }
 
