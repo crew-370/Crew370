@@ -46,10 +46,14 @@
   display: block;
   align: center;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 30;
 }
 
 .email {
   display: block;
   align: center;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 30;
 }
