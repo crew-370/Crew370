@@ -31,7 +31,7 @@
 
 .column {
   display: block;
-  align: center;
+  text-align: center;
   background-color: var(--bb-background);
   float: left;
   display: table;
