@@ -31,7 +31,7 @@
 
 .column {
   background-color: var(--bb-background);
-  float: left;
+  float: center;
   display: table;
   width: auto;
   color: var(--b-background);
