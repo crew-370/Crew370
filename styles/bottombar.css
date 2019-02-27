@@ -15,9 +15,9 @@
 .bb-title {
   font-family: "IBM Plex Sans", Sans-Serif;
   padding: 21px 21px;
-  color: black;
+  color: white;
   text-align: center;
-  font-size: 45;
+  font-size: 35;
   background-color: var(--bb-background);
 }
 
