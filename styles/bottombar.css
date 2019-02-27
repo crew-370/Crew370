@@ -1,10 +1,10 @@
 :root {
-  --bb-background: #006B3F;
+  --bb-background: #006338;
 }
 
 .background {
   background-color: var(--bb-background);
-  background-color: #006B3F;
+  background-color: #006338;
 }
 
 .bottombar {
