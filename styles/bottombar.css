@@ -23,8 +23,8 @@
 
 .contact-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: var(--bb-background);
 }
 
