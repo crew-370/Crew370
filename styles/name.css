@@ -2,14 +2,14 @@
   --content-width: 1100px;
 }
 
-html, body, h1, h2, h3, h4, h5, h6, p{
+html, body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 
-.content-box{
+.content-box {
   width: var(--content-width);
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .center-title {
