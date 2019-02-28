@@ -32,13 +32,13 @@
 .column {
   background-color: var(--bb-background);
   float: left;
-  display: table;
+  display: block;
   width: 50%;
   color: var(--b-background);
   font-size: 30;
   margin-left: auto;
   margin-top: 39px;
-  margin-right: auto;
+  margin-right: 21px;
   margin-bottom: 21px;
 }
 
