@@ -32,7 +32,7 @@
 .column {
   background-color: var(--bb-background);
   float: left;
-  display: block;
+  display: table;
   width: 50%;
   color: var(--b-background);
   font-size: 30;
