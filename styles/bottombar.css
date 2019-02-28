@@ -33,6 +33,7 @@
   background-color: var(--bb-background);
   float: left;
   display: table;
+  text-align: right;
   width: 50%;
   color: var(--b-background);
   font-size: 30;
