@@ -7,14 +7,13 @@
 
 .topnav {
   height: 100px;
-  width: 1200px;
   background-color: var(--topnav-background);
   font-family: "IBM Plex Sans", Sans-Serif;
 }
 
 .topnav a {
     color: var(--topnav-color);
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     padding: 21px 21px;
     display: inline-block;
