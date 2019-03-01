@@ -6,7 +6,7 @@
 }
 
 .topnav {
-  height: 80px;
+  height: auto;
   background-color: var(--topnav-background);
   font-family: "IBM Plex Sans", Sans-Serif;
 }
