@@ -6,7 +6,7 @@
 }
 
 .topnav {
-  height: auto;
+  height: 60px;
   display: block;
   text-align: center;
   background-color: var(--topnav-background);
