@@ -29,11 +29,25 @@
   background-color: var(--bb-background);
 }
 
-.column {
+.column1 {
   background-color: var(--bb-background);
   float: left;
   display: table;
   text-align: right;
+  width: 50%;
+  color: var(--b-background);
+  font-size: 30px;
+  margin-left: auto;
+  margin-top: 39px;
+  margin-right: auto;
+  margin-bottom: 21px;
+}
+
+.column2 {
+  background-color: var(--bb-background);
+  float: left;
+  display: table;
+  text-align: left;
   width: 50%;
   color: var(--b-background);
   font-size: 30px;
