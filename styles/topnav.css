@@ -15,9 +15,9 @@
 
 .topnav a {
     color: var(--topnav-color);
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
-    padding: 21px 21px;
+    padding: 10px 10px;
     display: inline-block;
     text-transform: uppercase;
     text-align: center;
