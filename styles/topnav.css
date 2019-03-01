@@ -22,11 +22,11 @@
 }
 
 .topnav a:hover {
-  box-shadow:inset 100px 100px var(--topnav-a-hover);
+  box-shadow:inset 200px 200px var(--topnav-a-hover);
 }
 
 .topnav a:active {
-  box-shadow:inset 100px 100px var(--topnav-a-active);
+  box-shadow:inset 200px 200px var(--topnav-a-active);
 }
 
 .center-text {
@@ -37,5 +37,5 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 10%;
 }
