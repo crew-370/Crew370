@@ -7,6 +7,6 @@ html, body, h1, h2, h3, h4, h5, h6, p{
   padding: 0;
 }
 .content-box{
-  width: var(--content-width);
+  max-width: var(--content-width);
   margin: 0 auto
 }
