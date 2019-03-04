@@ -4,8 +4,10 @@
 
 .n-navbar {
   color: white;
+  display: block;
   background-color: #212121;
   text-align: center;
   font-size: 25px;
   font-family: "IBM Plex Sans", sans-serif;
+  padding: 21px 21px;
 }
