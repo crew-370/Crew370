@@ -11,3 +11,8 @@
   font-family: "IBM Plex Sans", sans-serif;
   padding: 21px 21px;
 }
+
+.nb-element {
+  display: block;
+  color: white; 
+}
