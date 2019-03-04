@@ -12,6 +12,27 @@
   padding: 21px 21px;
 }
 
-.nb-element {
+.nb-element1 {
+  color: white;
+}
+
+.nb-element2 {
+  color: white;
+}
+
+.nb-element3 {
+  color: white;
+}
+
+.nb-element4 {
+  color: white;
+  break-after: auto;
+}
+
+.nb-element5 {
+  color: white;
+}
+
+.nb-element6 {
   color: white;
 }
