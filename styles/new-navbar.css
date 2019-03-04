@@ -5,4 +5,7 @@
 .n-navbar {
   color: red;
   background-color: red;
+  text-align: center;
+  font-size: 25px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
