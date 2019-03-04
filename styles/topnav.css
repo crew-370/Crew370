@@ -15,7 +15,7 @@
 
 .topnav a {
     color: var(--topnav-color);
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     padding: 21px 21px;
     display: inline-block;
