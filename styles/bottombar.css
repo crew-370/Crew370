@@ -63,7 +63,8 @@
   font-size: 24px;
   color: white;
   text-align: left;
-  width: 40%;
+  width: 50%;
+  float: left;
   margin: auto;
 }
 
