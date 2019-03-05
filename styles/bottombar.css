@@ -50,7 +50,7 @@
   text-align: left;
   width: 15%;
   color: var(--b-background);
-  font-size: 18px;
+  font-size: 24px;
   margin-left: 50px;
   margin-top: 39px;
   margin-right: auto;
@@ -62,7 +62,7 @@
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .gmaps {
@@ -70,5 +70,5 @@
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
 }
