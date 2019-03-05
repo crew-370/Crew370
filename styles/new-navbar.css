@@ -17,6 +17,8 @@
 
 .n-navbar-line2 {
   color: white;
+  border-radius: 3px;
+  border-color: red;
   background-color: #212121;
   text-align: center;
   text-transform: uppercase;
