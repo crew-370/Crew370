@@ -17,8 +17,6 @@
 
 .n-navbar-line2 {
   color: white;
-  border-radius: 3px;
-  border-color: red;
   background-color: #212121;
   text-align: center;
   text-transform: uppercase;
@@ -65,6 +63,8 @@
 
 .nb-element1 {
   color: white;
+  border-radius: 10px;
+  border-color: red;
 }
 
 .nb-element2 {
