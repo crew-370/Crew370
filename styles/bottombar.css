@@ -63,8 +63,9 @@
   font-size: 24px;
   color: white;
   text-align: left;
-  
+  width: 50%;
 }
+
 .email {
   display: block;
   text-align: center;
