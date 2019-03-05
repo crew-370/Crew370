@@ -28,7 +28,7 @@
   margin-right: 50px;
   background-color: var(--bb-background);
 }
-
+/*
 .column1 {
   background-color: var(--bb-background);
   float: left;
@@ -56,7 +56,15 @@
   margin-right: auto;
   margin-bottom: 21px;
 }
-
+*/
+.column50 {
+  background-color: var(--bb-background);
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  
+}
 .email {
   display: block;
   text-align: center;
