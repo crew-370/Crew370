@@ -14,10 +14,10 @@
 
 .bb-title {
   font-family: "IBM Plex Sans", Sans-Serif;
-  padding: 21px 21px;
+  padding: 21px 0px;
   color: white;
   text-align: center;
-  font-size: 35;
+  font-size: 24px;
   background-color: var(--bb-background);
 }
 
@@ -28,7 +28,7 @@
   margin-right: 50px;
   background-color: var(--bb-background);
 }
-
+/*
 .column1 {
   background-color: var(--bb-background);
   float: left;
@@ -48,13 +48,24 @@
   float: left;
   display: table;
   text-align: left;
-  width: 15%;
+  width: 40%;
   color: var(--b-background);
-  font-size: 30px;
-  margin-left: auto;
+  font-size: 24px;
+  margin-left: 50px;
   margin-top: 39px;
   margin-right: auto;
   margin-bottom: 21px;
+}
+*/
+.column50 {
+  background-color: var(--bb-background);
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  width: 49%;
+  float: left;
+  margin: auto;
 }
 
 .email {
@@ -62,13 +73,14 @@
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .gmaps {
   display: block;
   text-align: center;
   color: white;
+  width: 100%;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 19px;
 }

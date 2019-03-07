@@ -1,5 +1,9 @@
 :root {
-  --content-width: 1100px;
+  --content-width: 1100;
+  --topnav-color: #e0e0e0;
+  --topnav-background: #111111;
+  --topnav-a-hover: #ffffff14;
+  --topnav-a-active: #ffffff28;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p {
@@ -8,7 +12,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .content-box {
-  width: var(--content-width);
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 

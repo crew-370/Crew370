@@ -1,0 +1,104 @@
+:root {
+  --topnav-color: #e0e0e0;
+  --topnav-background: #111111;
+  --topnav-a-hover: #ffffff14;
+  --topnav-a-active: #ffffff28;
+}
+
+.n-navbar-line1 {
+  color: white;
+  background-color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 21px 21px 21px 21px;
+}
+
+.n-navbar-line2 {
+  color: white;
+  background-color: #212121;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 21px 21px 21px 21px;
+}
+
+.n-navbar-line1 a {
+    color: var(--topnav-color);
+    font-size: 25px;
+    text-decoration: none;
+    padding: 21px 21px 21px 21px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.n-navbar-line2 a {
+    color: var(--topnav-color);
+    font-size: 25px;
+    text-decoration: none;
+    padding: 21px 21px 21px 21px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.n-navbar-line1 a:hover {
+  box-shadow:inset 100px 100px var(--topnav-a-hover);
+}
+
+.n-navbar-line2 a:hover {
+  box-shadow:inset 100px 100px var(--topnav-a-hover);
+}
+
+.n-navbar-line1 a:active {
+  box-shadow:inset 100px 100px var(--topnav-a-active);
+}
+
+.n-navbar-line2 a:active {
+  box-shadow:inset 100px 100px var(--topnav-a-active);
+}
+
+.nb-element1 {
+  color: white;
+  border-radius: 10px;
+  border-color: red;
+}
+
+.nb-element2 {
+  color: white;
+  border-radius: 10px;
+
+}
+
+.nb-element3 {
+  color: white;
+  border-radius: 10px;
+
+}
+
+.nb-element4 {
+  color: white;
+  border-radius: 10px;
+
+  break-after: auto;
+}
+
+.nb-element5 {
+  color: white;
+  border-radius: 10px;
+
+}
+
+.nb-element6 {
+  color: white;
+  border-radius: 10px;
+
+}
