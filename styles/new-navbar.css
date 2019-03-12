@@ -11,7 +11,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   font-family: "IBM Plex Sans", sans-serif;
   padding: 21px 21px 21px 21px;
 }
@@ -21,14 +21,14 @@
   background-color: #212121;
   text-align: center;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 24px;
   font-family: "IBM Plex Sans", sans-serif;
   padding: 21px 21px 21px 21px;
 }
 
 .n-navbar-line1 a {
     color: var(--topnav-color);
-    font-size: 25px;
+    font-size: 24px;
     text-decoration: none;
     padding: 21px 21px 21px 21px;
     display: inline-block;
@@ -40,7 +40,7 @@
 
 .n-navbar-line2 a {
     color: var(--topnav-color);
-    font-size: 25px;
+    font-size: 24px;
     text-decoration: none;
     padding: 21px 21px 21px 21px;
     display: inline-block;
@@ -69,7 +69,6 @@
 .nb-element1 {
   color: white;
   border-radius: 10px;
-  border-color: red;
 }
 
 .nb-element2 {

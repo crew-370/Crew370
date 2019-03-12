@@ -17,6 +17,7 @@
 
   --home-btn-display: none;
 }
+
 .topnav2.scroll {
   --topnav-padding-y: 0px;
   --topnav-parts-display: inline-block;
@@ -27,6 +28,7 @@
   --topnav-a-padding-x: 30px;
   --home-btn-display: inline-block;
 }
+
 .topnav2 {
   background-color: var(--topnav-bg-color);
   padding: var(--topnav-padding-y) 0;
@@ -34,14 +36,17 @@
   position: sticky;
   top: 0;
 }
+
 .topnav2 > .content-box {
   text-align: center;
 }
+
 .topnav2 .parts {
   display: var(--topnav-parts-display);
   text-align: center;
   width: var(--topnav-parts-width);
 }
+
 .topnav2 .page-button {
   display: inline-block;
   width: var(--topnav-button-width);
@@ -50,6 +55,7 @@
   border: var(--topnav-button-border);
   margin: var(--topnav-button-margin);
 }
+
 .topnav2 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -60,6 +66,7 @@
   padding: 0 var(--topnav-a-padding-x);
   color: var(--topnav-a-color);
 }
+
 .topnav2:not(.scroll) .page-button.home-btn {
   width: 0px;
   margin: 0;
@@ -73,6 +80,7 @@
     --topnav-a-padding-x: 20px;
   }
 }
+
 @media (max-width: 600px) {
 
 }

@@ -60,7 +60,7 @@
 .column50 {
   background-color: var(--bb-background);
   display: inline-block;
-  font-size: 24px;
+  font-size: 16px;
   color: white;
   text-align: left;
   width: 49%;
@@ -73,7 +73,7 @@
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .gmaps {
