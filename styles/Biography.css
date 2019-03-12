@@ -12,7 +12,7 @@
   padding: 21px 21px;
   color: white;
   text-align: center;
-  font-size: 45;
+  font-size: 24;
 }
 
 .h4-content {
@@ -20,13 +20,13 @@
   padding: 21px 21px;
   color: white;
   text-align: center;
-  font-size: 30;
+  font-size: 16;
 }
 
 .h3-content {
   font-family: "Roboto", Sans-Serif;
   font-style: italic;
   color: white;
-  font-size: 40;
+  font-size: 16;
   text-align: center;
 }
