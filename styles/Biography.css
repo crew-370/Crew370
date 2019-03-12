@@ -9,7 +9,7 @@
 
 .h3-title {
   font-family: "IBM Plex Sans", Sans-Serif;
-  padding: 21px 21px;
+  padding: 0px 21px;
   color: white;
   text-align: center;
   font-size: 24;
@@ -17,7 +17,7 @@
 
 .h4-content {
   font-family: "Roboto", Sans-Serif;
-  padding: 0px 21px;
+  padding: 21px 21px;
   color: white;
   text-align: center;
   font-size: 16;
