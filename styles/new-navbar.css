@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 18px;
   font-family: "IBM Plex Sans", sans-serif;
-  padding: 21px 21px 21px 21px;
+  padding: 16px 16px 16px 16px;
 }
 
 .n-navbar-line2 {
@@ -23,14 +23,14 @@
   font-weight: bold;
   font-size: 18px;
   font-family: "IBM Plex Sans", sans-serif;
-  padding: 0px 21px 21px 21px;
+  padding: 0px 16px 16px 16px;
 }
 
 .n-navbar-line1 a {
     color: var(--topnav-color);
     font-size: 18px;
     text-decoration: none;
-    padding: 21px 21px 21px 21px;
+    padding: 16px 16px 16px 16px;
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
@@ -42,7 +42,7 @@
     color: var(--topnav-color);
     font-size: 18px;
     text-decoration: none;
-    padding: 21px 21px 21px 21px;
+    padding: 16px 16px 16px 16px;
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
