@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel='stylesheet' href='styles/name.css'>
-
+    <link rel='stylesheet' href='styles/contact-pg.css'>
     <link rel='stylesheet' href='styles/topnav.css'>
   </head>
   <body>
@@ -14,6 +14,15 @@
       </div>
     </div>
     {% else %} {% endif %}
+    <a href="index.html"><img src="src/venture.png" width="100" length="100"></a>
+    <div class="n-navbar">
+      <a class="nb-element" href="index.html">Home</a>
+      <a class="nb-element" href="information.html">Information</a>
+      <a class="nb-element" href="events.html">Events</a>
+      <a class="nb-element" href="leadership.html">Leadership</a>
+      <a class="nb-element" href="photos.html">Photos</a>
+      <a class="nb-element" href="payments.html">Payments & Campout Signups</a>
+    </div>
 <!--
     <div class="topnav">
       <div class="content-box">
@@ -24,7 +33,7 @@
         <a href="payments.html">Payments & Campout Signups</a>
         <a href="contact.html">Contact</a>
       </div>
-    </div> 
+    </div>
 -->
     {{ content }}
   </body>
