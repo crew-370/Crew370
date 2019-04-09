@@ -81,3 +81,49 @@ carousel .content-box {
     font-size: 28px;
   }
 }
+.mdc-button {
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: .08929em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  padding: 0 8px 0 8px;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  height: 36px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.mdc-button--outlined {
+  border-style: solid;
+  padding: 0 14px 0 14px;
+  border-width: 2px;
+}
+.standard-light-button.mdc-button--outlined {
+  padding: 0 15px 0 15px;
+  border-width: 1px;
+  border-color: #fff;
+  color: #fff;
+}
+a.standard-light-button.mdc-button--outlined:hover {
+  background-color: rgba(255,255,255,0.2)
+}
+a.standard-light-button.mdc-button--outlined:active {
+  background-color: rgba(255,255,255,0.4)
+}
