@@ -1,0 +1,129 @@
+carousel {
+  display: flex;
+  height: auto;
+  justify-content: center
+}
+carousel .content-box {
+  width: var(--content-width);
+}
+.flickity-page-dots {
+  bottom: 15px !important;
+  overflow: hidden;
+  height: 14px;
+}
+.flickity-page-dots .dot {
+  background: #dddddd !important;
+}
+.flickity-button {
+  background: none !important;
+}
+.flickity-button-icon {
+  fill: #dddddd !important;
+}
+.main-carousel {
+  height: 300px;
+}
+.main-carousel .carousel-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  margin: 0;
+}
+.main-carousel .carousel-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: #fff;
+}
+.main-carousel .carousel-text-card {
+  display: block;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  margin: 0px 0 0 auto;
+  border-radius: 3px;
+  transition: 0.1s;
+}
+.main-carousel .carousel-text-card>div {
+  text-align: center;
+  color: white;
+  margin: auto 0 auto 0;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+.main-carousel .carousel-cell {
+  width: calc(50% - (1/2)*21px);
+  height: 300px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+@media (max-width: 900px) {
+  .main-carousel .carousel-cell {
+    width: calc(100% - 2*21px);
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .main-carousel .carousel-cell {
+    width: calc(86% - 21px);
+    height: 200px;
+  }
+  .main-carousel {
+    height: 200px;
+  }
+  .main-carousel .carousel-title {
+    font-size: 28px;
+  }
+}
+.mdc-button {
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: .08929em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  padding: 0 8px 0 8px;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  height: 36px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.mdc-button--outlined {
+  border-style: solid;
+  padding: 0 14px 0 14px;
+  border-width: 2px;
+}
+.standard-light-button.mdc-button--outlined {
+  padding: 0 15px 0 15px;
+  border-width: 1px;
+  border-color: #fff;
+  color: #fff;
+}
+a.standard-light-button.mdc-button--outlined:hover {
+  background-color: rgba(255,255,255,0.2)
+}
+a.standard-light-button.mdc-button--outlined:active {
+  background-color: rgba(255,255,255,0.4)
+}
