@@ -1,18 +1,98 @@
 ---
-layout: default
+layout: page
 title: Information
 ---
 <html>
   <head>
-    <a href="index.html">Home</a>
     <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel='stylesheet' href='styles/information.css'>
   </head>
   <body>
-    <a href="index.html"><img src="src/venture.png" width="100" length="100"></a>
-    <h2>Harry's Packing List</h2>
-    <h3>Harry's Packing List is available below, click the button to download.  It has all the gear you need for a campout.  Please note that this may vary if you are going on a High Adventure Trip (to Philmont or Sea Base for example).  Troop 370 is very lucky to have access to a fully stocked (but rarely clean) quartermaster closet with tents, backpacks, and anything else you might need.</h3>
-    <a href="https://drive.google.com/file/d/1WcNPf8DCOpnVf9Z8vP8-pK_K_EMvlaVM/view">Harry's Packing List Google Drive Link</a>
-    <iframe src="src/hpl.pdf" width="850" lenth="1100"></iframe>
-    <iframe src="https://www.atlantatrails.com/" width="850" length="1100"></iframe>
+    <h1 class="head">Harry's Packing List</h1>
+    <a class="download" href="src/hpl.pdf" download>Download Harry's Packing List</a>
+    <div class="content">
+      <div class="col1">
+        <h2 class="x-head">Carry in Pocket</h2>
+        <p class="x-content">Signed permission slip (if not already turned in)</p>
+        <p class="x-content-e">Money for lunch on Sunday</p>
+
+        <h2 class="x-head">Packs and Bags</h2>
+        <p class="x-content">Pack or duffle bag</p>
+        <p class="x-content">Waterproof pack cover (or large garbage bag)</p>
+        <p class="x-content">Plastic Ziploc bags for gear (to hold clothes and small items)</p>
+        <p class="x-content-e">Daypack for side hikes</p>
+
+        <h2 class="x-head">Sleeping Gear</h2>
+        <p class="x-content">Sleeping bag in waterproof stuff sack or plastic bag</p>
+        <p class="x-content">Tent with ground cloth or footprint or weatherproof hammock</p>
+        <p class="x-content">Sleeping pad</p>
+        <p class="x-content-e">Sleeping clothes (t-shirt and gym shorts)</p>
+
+        <h2 class="x-head">Eating and Drinking Gear</h2>
+        <p class="x-content">Water bottles (2 liters of total capacity minimum)</p>
+        <p class="x-content">Eating bowl</p>
+        <p class="x-content">Drinking cup</p>
+        <p class="x-content">Spoon (fork and knife optional)</p>
+        <p class="x-content-e">Trail snacks</p>
+
+        <h2 class="x-head">Footwear</h2>
+        <p class="x-content">Boots (when hiking is scheduled activity)</p>
+        <p class="x-content">Hiking socks (when hiking is scheduled activity)</p>
+        <p class="x-content">Camp shoes (closed toe - neakers, crocs, etc.)</p>
+        <p class="x-content-e">Camp socks (at least one clean pair in your pack)</p>
+
+        <h2 class="x-head">Clothing-Head, Neck & Hands (weather dependent)</h2>
+        <p class="x-content">Baseball or wide brim hat</p>
+        <p class="x-content">Wool or fleece hat</p>
+        <p class="x-content">Gloves or mittens</p>
+        <p class="x-content-e">Sunglasses</p>
+      </div>
+
+      <div class="col1">
+        <h2 class="x-head">Personal Care Items</h2>
+        <p class="x-content">Camp towel</p>
+        <p class="x-content">Bandanas</p>
+        <p class="x-content">Soap</p>
+        <p class="x-content">Toothbrush</p>
+        <p class="x-content">Toothpaste</p>
+        <p class="x-content">Dental floss</p>
+        <p class="x-content">Comb</p>
+        <p class="x-content">Small supply of toilet paper in Ziploc bag</p>
+        <p class="x-content">Lip balm/Chapstick</p>
+        <p class="x-content">Personal prescription medications</p>
+        <p class="x-content">Insect repellent</p>
+        <p class="x-content-e">Sunscreen</p>
+
+        <h2 class="x-head">Garage Items</h2>
+        <p class="x-content">Boy Scout Handbook (in Ziploc bag)</p>
+        <p class="x-content">Nylon or paracord</p>
+        <p class="x-content">Pocket knife or multi-tool</p>
+        <p class="x-content">Compass or GPS</p>
+        <p class="x-content">Matches/lighter in waterproof case or bag</p>
+        <p class="x-content">Whistle</p>
+        <p class="x-content">Camera or GoPro</p>
+        <p class="x-content">Fishing gear</p>
+        <p class="x-content">Small notepad and pen/pencil</p>
+        <p class="x-content">Small amount of duct tape</p>
+        <p class="x-content">Small sewing repair kit</p>
+        <p class="x-content">Flashlight or headlamp</p>
+        <p class="x-content-e">Watch</p>
+
+        <h2 class="x-head">Clothing-Lower Body Layer</h2>
+        <p class="x-content">Shorts (depending on weather)</p>
+        <p class="x-content">Long pants (depending on weather and scheduled activity)</p>
+        <p class="x-content">Underwear</p>
+        <p class="x-content">Rain pants</p>
+        <p class="x-content-e">Swimsuit (depending on activities)</p>
+
+        <h2 class="x-head">Clothing-Upper Body Layer</h2>
+        <p class="x-content">Shirt (short sleeve or long based on weather)</p>
+        <p class="x-content">Wool or fleece jacket or pullover</p>
+        <p class="x-content-e">Rain jacket or pullover</p>
+    </div>
+    <p class="content-note">**Either bring your own tent or hammock, arrange to sleep in another scout's ten or arrange with your patrol leader to use a troop tent.</p>
+    </div>
+
+    <h1 class="head">Other Links</h1>
   </body>
 </html>

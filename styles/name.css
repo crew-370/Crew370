@@ -19,7 +19,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 .center-title {
   font-family: "IBM Plex Sans", Sans-Serif;
   color: white;
-  font-size: 55;
+  font-size: 32;
   padding: 15px 21px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 .center-content {
   font-family: "IBM Plex Sans", Sans-Serif;
   color: white;
-  font-size: 35;
+  font-size: 24;
   text-align: center;
   padding-bottom: 21px;
 }

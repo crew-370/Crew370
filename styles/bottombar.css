@@ -66,6 +66,7 @@
   width: 49%;
   float: left;
   margin: auto;
+  padding-bottom: 42px;
 }
 
 .email {
@@ -82,5 +83,5 @@
   color: white;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
 }

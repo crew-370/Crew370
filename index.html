@@ -10,6 +10,9 @@ title: Home
     <link rel='stylesheet' href='styles/contact.css'>
     <link rel='stylesheet' href='styles/bottombar.css'>
     <link rel='stylesheet' href='styles/new-navbar.css'>
+    <link rel="stylesheet" href="resources/flickity/flickity.css" media="screen">
+    <script src="resources/flickity/flickity.pkgd.js"></script>
+    <link rel='stylesheet' href='styles/carousel.css'>
   </head>
   <body class="background">
     <div class="n-navbar-line1">
@@ -20,7 +23,7 @@ title: Home
     <div class=n-navbar-line2>
       <a class="nb-element4" href="photos.html">Photos</a>
       <a class="nb-element5" href="payments.html">Payments & Campout Signups</a>
-      <a class="nb-element6" href="contact.html">Contact</a>
+      <a class="nb-element6" href="Contact.html">Contact</a>
     </div>
     <div class="bio">
       <div class="content-box">
@@ -38,6 +41,33 @@ title: Home
       <a class="email" href="mailto:venturecrew370atlanta@gmail.com" style="margin:auto; text-align:center; display:block;">venturecrew370atlanta@gmail.com</a>
     </div>
     -->
+    <carousel id="main">
+      <div class="content-box">
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": 4000, "freeScroll": true, "pageDots": false }'>
+          {% include main-carousel-card.html
+              card-title="Woodruff Summer Camp"
+              card-subtitle="June 9-15"
+              card-href="woodruff-sc-sign-up_encrypted.html"
+              button-text="Sign up"
+              background-image="/src/banner images/wsr-sign-far.jpg"
+          %}
+          {% include main-carousel-card.html
+              card-title="Summit Summer Camp"
+              card-subtitle="June 23-29"
+              card-href="summit-sc-sign-up_encrypted.html"
+              button-text="Sign up"
+              background-image="/src/banner images/summit-sign.webp"
+          %}
+          {% include main-carousel-card.html
+              card-title="High Adventure"
+              card-subtitle="2019"
+              card-href="camps-adventure.html"
+              button-text="View list"
+              background-image="/src/banner images/scout shadow on top of mountain with sunset.jpg"
+          %}
+        </div>
+      </div>
+    </carousel>
     <div class="bottombar">
       <h3 class="M-Info">Meetings</h3>
       <div class="content-box">

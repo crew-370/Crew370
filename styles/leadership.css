@@ -1,0 +1,179 @@
+:root {
+
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+  margin-top: 21px;
+}
+
+.content {
+  width: 75%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.col1 {
+  width: 33%;
+  float: left;
+}
+
+.big-boi {
+  width: 66%;
+  float: left;
+}
+
+.col3 {
+  width: 50%;
+  float: right;
+}
+
+.col2 {
+  width: 50%;
+  float: right;
+}
+
+/*
+.line1 {
+  text-align: center;
+}
+
+
+
+
+.line1b {
+  text-align: center;
+}
+
+.line1c {
+  text-align: center;
+}
+*/
+
+.sam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  length: 200px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 21px;
+}
+
+.julia {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  length: 200px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 21px;
+}
+
+.lauren {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  length: 200px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 21px;
+}
+
+.name {
+  display: block;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  margin-left: 21px;
+  margin-right: 21px;
+  margin-top: 10px;
+  color: white;
+}
+
+.position {
+  display: block;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-left: 21px;
+  margin-right: 21px;
+  margin-top: 10px;
+  color: white;
+}
+
+.np {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  length: 200px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 15px;
+}
+
+.position {
+  padding-bottom: 21px;
+}
+
+.sam, .julia, .lauren, .np {
+  padding-top: 21px;
+}
+
+.double {
+  width: 75%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.left-d {
+  width: 50%;
+  float: left;
+}
+
+.right-d {
+  width: 50%;
+  float: left;
+}
+
+.dbl-col {
+  width: 200px;
+  length: 200px;
+  border-radius: 50%;
+  padding-bottom: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 21px;
+}
+
+.a-leaders {
+  text-align: center;
+  font-size: 50px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+  margin-top: 21px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.pt1 {
+  display: block;
+}
+
+.pt2 {
+  display: block;
+}

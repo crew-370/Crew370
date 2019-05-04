@@ -1,9 +1,58 @@
+---
+layout: default
+title: Contact
+---
+
 <html>
   <head>
-    <a href="index.html">Home</a>
-    <title>Information | Venturing Crew 370</title>
+    <title>Contact | Venturing Crew 370</title>
+    <link rel='stylesheet' href='styles/contact-pg.css'>
   </head>
   <body>
-    <a href="index.html"><img src="src/venture.png" width="100" length="100"></a>
+    <div class="page">
+      <div class="logo">
+        <a href="index.html"><img src="src/venture.png" width="100" length="100"></a>
+      </div>
+
+      <div class="n-navbar">
+        <a class="nb-element" href="index.html">Home</a>
+        <a class="nb-element" href="information.html">Information</a>
+        <a class="nb-element" href="events.html">Events</a>
+        <a class="nb-element" href="leadership.html">Leadership</a>
+        <a class="nb-element" href="photos.html">Photos</a>
+        <a class="nb-element" href="payments.html">Payments & Campout Signups</a>
+      </div>
+
+      <div class="nl-form">
+        <h3 class="form-title">Sign Up for our Newsletter:</h3>
+        <form method="POST" action="https://formspree.io/evansclan@bellsouth.net">
+          <input class="name1" name="text" placeholder="Your First and Last Name*" required/>
+          <input class="email1" type="email" name="email" placeholder="Your Email*" required/>
+          <button class="submit1" type="submit">Submit</button>
+          <!-- <input type="hidden" name="_next" value="submission file"/> -->
+        </form>
+      </div>
+
+        <div class="gq-form">
+        <h3 class="form-title">General Questions:</h3>
+        <form method="POST" action="https://formspree.io/evansclan@bellsouth.net">
+          <input class="name2" name="text" placeholder="Your First and Last Name*" required/>
+          <input class="email2" type="text" name="question" placeholder="Question:*" required/>
+          <button class="submit2" type="submit">Submit</button>
+          <!-- <input type="hidden" name="_next" value="submission file"/> -->
+        </form>
+      </div>
+
+        <div class="wm-form">
+        <h3 class="form-title">Webmaster Questions:</h3>
+        <form method="POST" action="https://formspree.io/eadsnf@gmail.com">
+          <input class="name3" name="text" placeholder="Your First and Last Name*" required>
+          <input class="email3" type="text" name="question" placeholder="Question:*" required>
+          <button class="submit3" type="submit">Submit</button>
+          <!-- <input type="hidden" name="_next" value="submission file"/> -->
+        </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
