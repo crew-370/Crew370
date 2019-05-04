@@ -22,12 +22,14 @@ carousel .content-box {
 }
 .main-carousel {
   height: 300px;
+  padding-top: 21px;
 }
 .main-carousel .carousel-title {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 24px;
   margin: 0;
+  padding-top: 150px;
 }
 .main-carousel .carousel-info {
   font-family: 'Roboto', sans-serif;
@@ -97,7 +99,7 @@ carousel .content-box {
   justify-content: center;
   box-sizing: border-box;
   min-width: 64px;
-  height: 36px;
+  height: 0px;
   border: none;
   outline: none;
   line-height: inherit;

@@ -46,34 +46,35 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: hsla(0, 0%, 100%, 0.75);
+  background: #ffffff;
   border: none;
-  color: #333;
+  color: #ffffff;
 }
 
+
 .flickity-button:hover {
-  background: white;
+  background: none;
   cursor: pointer;
 }
 
 .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  /*box-shadow: 0 0 0 5px #19F;*/
 }
 
 .flickity-button:active {
-  opacity: 0.6;
+  /*opacity: 0; was .6 */
 }
 
 .flickity-button:disabled {
-  opacity: 0.3;
+  /*opacity: 0; Was .3*/
   cursor: auto;
   /* prevent disabled button from capturing pointer up event. #716 */
   pointer-events: none;
 }
 
 .flickity-button-icon {
-  fill: #333;
+  fill: #ffffff;
 }
 
 /* ---- previous/next buttons ---- */

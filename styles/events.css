@@ -1,3 +1,101 @@
 :root {
 
 }
+
+.meetings {
+  background-color: #004460;
+  padding-bottom: 16px;
+}
+
+.upcoming-events {
+  padding-top: 16px;
+}
+
+.clock {
+  width: 4%;
+  padding-left: 48%;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+.download {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    font-family: "IBM Plex Sans", Sans-Serif;
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+
+.link {
+  display: block;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-left: 42%;
+  margin-right: 42%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.link:hover{
+  background-color: #ffffff14;
+}
+
+.subtitle2:hover{
+  background-color: #ffffff14;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", Sans-Serif;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+
+.subtitle2 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", Sans-Serif;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 21px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-left: 43.5%;
+  margin-right: 43.5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.test {
+  color: white;
+  text-align: center;
+  font-family: "IBM Plex Sans", Sans-Serif;
+  font-size: 24px;
+  margin-bottom: 21px;
+}
+
+.event {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", Sans-Serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
