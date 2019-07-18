@@ -21,7 +21,7 @@
   padding: 21px 21px;
   color: var(--text-color);
   text-align: center;
-  font-size: 16;
+  font-size: 24;
 }
 
 .address {
@@ -29,7 +29,7 @@
   padding: 21px 21px;
   color: var(--text-color);
   text-align: center;
-  font-size: 16;
+  font-size: 24;
 }
 
 .inform {
@@ -37,7 +37,8 @@
   padding: 21px 21px;
   color: var(--text-color);
   text-align: center;
-  font-size: 16;
+
+  font-size: 24;
 }
 
 .email {
@@ -45,5 +46,6 @@
   padding: 21px 21px;
   color: var(--text-color);
   text-align: center;
-  font-size: 16;
+
+  font-size: 24;
 }

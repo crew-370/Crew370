@@ -15,19 +15,55 @@
       </div>
     </div>
     {% else %} {% endif %}
-
-<!--
-    <div class="topnav">
-      <div class="content-box">
-        <a href="information.html">Information</a>
-        <a href="events.html">Events</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="photos.html">Photos</a>
-        <a href="payments.html">Payments & Campout Signups</a>
-        <a href="contact.html">Contact</a>
+    <div class="topnav2 {% if page.title == 'Home' %}{% else %}scroll{% endif %}">
+      <div class="content-box" style="max-width: 1100px; margin: 0 auto;">
+        <div class="parts p1">
+          <div class="page-button home-btn">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="page-button">
+            <a href="information.html">Information</a>
+          </div>
+          <div class="page-button">
+            <a href="events.html">Events</a>
+          </div>
+          <div class="page-button">
+            <a href="leadership.html">Leadership</a>
+          </div>
+        </div>
+        <div class="parts p2">
+          <div class="page-button">
+            <a href="photos.html">Photos</a>
+          </div>
+          <div class="page-button">
+            <a href="payments.html">Payments &amp; Signups</a>
+          </div>
+          <div class="page-button">
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
       </div>
     </div>
--->
     {{ content }}
   </body>
+  {% if page.title == 'Home' %}
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).ready(function(){
+      //shadow for flaoting navbar on mobile
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll >= 284) {
+            $(".topnav2").addClass("scroll");
+          } else {
+            $(".topnav2").removeClass("scroll");
+          }
+      });
+    });
+  </script>
+  {% else %} {% endif %}
 </html>

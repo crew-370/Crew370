@@ -1,46 +1,88 @@
-:root {
-  --topnav-color: #e0e0e0;
-  --topnav-background: #111111;
-  --topnav-a-hover: #ffffff14;
-  --topnav-a-active: #ffffff28;
+.topnav2 {
+  --topnav-bg-color: #212121;
+  --topnav-height: 60px;
+  --topnav-padding-y: 40px;
+
+  --topnav-parts-display: inline-block;
+  --topnav-parts-width: 100%;
+
+  --topnav-button-width: 30%;
+  --topnav-button-bg:;
+  --topnav-button-border: 1px solid white;
+  --topnav-button-margin: 5px;
+
+  --topnav-a-line-height: 60px;
+  --topnav-a-padding-x: 20px;
+  --topnav-a-color: #e0e0e0;
+
+  --home-btn-display: none;
 }
 
-.topnav {
-  height: 50px;
-  display: block;
+.topnav2.scroll {
+  --topnav-padding-y: 0px;
+  --topnav-parts-display: inline-block;
+  --topnav-parts-width: auto;
+  --topnav-button-width: auto;
+  --topnav-button-border: 0px solid white;
+  --topnav-button-margin: 0;
+  --topnav-a-padding-x: 30px;
+  --home-btn-display: inline-block;
+}
+
+.topnav2 {
+  background-color: var(--topnav-bg-color);
+  padding: var(--topnav-padding-y) 0;
+  transition: padding 0.2s;
+  position: sticky;
+  top: 0;
+}
+
+.topnav2 > .content-box {
+  text-align: center;
+}
+
+.topnav2 .parts {
+  display: var(--topnav-parts-display);
+  text-align: center;
+  width: var(--topnav-parts-width);
+}
+
+.topnav2 .page-button {
+  display: inline-block;
+  width: var(--topnav-button-width);
+  text-align: center;
+  overflow: hidden;
+  border: var(--topnav-button-border);
+  margin: var(--topnav-button-margin);
+}
+
+.topnav2 a {
+  text-decoration: none;
+  text-transform: uppercase;
   font-size: 16px;
-  text-align: center;
-  background-color: var(--topnav-background);
-  font-family: "IBM Plex Sans", Sans-Serif;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  line-height: var(--topnav-a-line-height);
+  padding: 0 var(--topnav-a-padding-x);
+  color: var(--topnav-a-color);
 }
 
-.topnav a {
-    color: var(--topnav-color);
-    font-size: 16px;
-    text-decoration: none;
-    padding: 21px 21px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-align: center;
+.topnav2:not(.scroll) .page-button.home-btn {
+  width: 0px;
+  margin: 0;
+  border: none;
+  transition: all 0.2s;
+  transition-delay: 0.2s;
 }
 
-.topnav a:hover {
-  box-shadow:inset 100px 100px var(--topnav-a-hover);
+@media (max-width: 1100px) {
+  .topnav2 {
+    --topnav-a-padding-x: 20px;
+  }
 }
 
-.topnav a:active {
-  box-shadow:inset 100px 100px var(--topnav-a-active);
-}
+@media (max-width: 600px) {
 
-.center-text {
-  text-align: center;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
 }
 
 .nb-element:hover {
